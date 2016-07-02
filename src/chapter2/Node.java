@@ -7,5 +7,4 @@ public class Node {
 	public Node (char data) {
 		this.data = data;
 	}
-	
 }
