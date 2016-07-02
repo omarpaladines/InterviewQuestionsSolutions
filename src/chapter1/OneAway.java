@@ -1,5 +1,4 @@
 // Problem 1.5 CTCI
-
 package chapter1;
 
 public class OneAway {
