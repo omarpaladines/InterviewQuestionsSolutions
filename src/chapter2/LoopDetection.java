@@ -16,13 +16,13 @@ public class LoopDetection {
 			p2 = p1;
 			for (int i = 0; i < distance; i++) { /* advance running second pointer */
 				p2 = p2.next;
-				if (p2 == null) return null; /* if hit the end then return null */
+				if (p2 == null) return null; /* if second pointers hits end then return null */
 			}
-			if (p1 == p2) return p1; /* if hit the end then return null */
+			if (p1 == p2) return p1; /* if pointers match then return the node in cycle */
 			p1 = p1.next;
 			distance++;
 		}
-		return null;
+		return null; /* if hit the end with first pointer then return null */
 	}
 	
 	/**
@@ -35,7 +35,7 @@ public class LoopDetection {
 		int length = 1;
 		Node p = node;
 		while (true) {
-			if (p.next == node) { /* If running pointer matches node of the cycle, get length */
+			if (p.next == node) { /* If running pointer matches node of the cycle get length */
 				return length;
 			} else {
 				p = p.next;

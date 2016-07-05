@@ -16,7 +16,7 @@ public class LoopDetectionTest {
 	}
 	
 	@Test
-	public void beginningOfCycle1() {
+	public void beginningOfCycle() {
 		Node node1 = new Node ('A');
 		Node node2 = new Node ('B');
 		Node node3 = new Node ('C');
@@ -27,7 +27,7 @@ public class LoopDetectionTest {
 	}
 	
 	@Test
-	public void beginningOfCycle2() {
+	public void middleCycleThirdNode() {
 		Node node1 = new Node ('A');
 		Node node2 = new Node ('B');
 		Node node3 = new Node ('C');
@@ -42,7 +42,7 @@ public class LoopDetectionTest {
 	}
 	
 	@Test
-	public void beginningOfCycle3() {
+	public void middleCycleSecondNode() {
 		Node node1 = new Node ('A');
 		Node node2 = new Node ('B');
 		Node node3 = new Node ('C');
@@ -68,5 +68,4 @@ public class LoopDetectionTest {
 		node4.next = null;
 		assertTrue(loopDetection.beginningCycle(node1) == null);
 	}
-
 }
