@@ -1,5 +1,7 @@
 #Annoying config files
 /bin/
-*.iml
 out/
 /.idea/
+*.xml
+copyright
+*.iml
