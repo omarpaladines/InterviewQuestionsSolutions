@@ -1,1 +1,5 @@
 /bin/
+#Annoying config files
+*.xml
+copyright
+*.iml
