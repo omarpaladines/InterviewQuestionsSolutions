@@ -53,7 +53,7 @@ public class LoopDetectionTest {
 		node3.next = node4;
 		node4.next = node5;
 		node5.next = node2;		
-		assertTrue(loopDetection.beginningCycle(node1) == node2);	
+		assertTrue(loopDetection.beginningCycle(node1) == node2);
 	}
 	
 	@Test
