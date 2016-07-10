@@ -5,3 +5,4 @@ out/
 *.xml
 copyright
 *.iml
+*.DS_Store
