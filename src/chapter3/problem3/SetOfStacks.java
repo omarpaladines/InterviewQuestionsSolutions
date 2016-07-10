@@ -12,7 +12,9 @@ public class SetOfStacks<T> {
     private int capacity;
 
      public SetOfStacks(int capacity) {
+         MyStack<T> firstStack = new MyStack<T>();
          this.setOfStacks = new MyStack<>();
+         this.setOfStacks.push(firstStack);
          this.capacity = capacity;
     }
 
