@@ -1,6 +1,7 @@
 // Problem 1.5 CTCI
-package chapter1;
+package chapter1.problem5;
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class OneAwayTest {

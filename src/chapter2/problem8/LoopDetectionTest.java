@@ -1,5 +1,5 @@
 // Problem 2.8 CTCI
-package chapter2;
+package chapter2.problem8;
 
 import static org.junit.Assert.*;
 import org.junit.Test;

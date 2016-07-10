@@ -1,0 +1,5 @@
+For the followup we could have used a resizable array. This is the approach that the book takes, but I couldn't see the
+right way of handling the case where you have to empty a stack in the middle of the array. Thus, I decided to use
+a doubly linked list of stacks: We can add to the back (usual push/pop) and can iterate from the front to get to index i
+and pop items from it. If it gets empty, we can remove items from there. This way, we can resize the set of stacks
+properly, but we lose constant time popAt(index i) (space vs time tradeoff).
