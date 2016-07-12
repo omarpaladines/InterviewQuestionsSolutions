@@ -1,4 +1,4 @@
-package chapter3.problem3;
+package chapter3;
 
 import java.util.EmptyStackException;
 import java.util.Stack;

@@ -1,0 +1,3 @@
+The current approach I took for this problem is similar to insertion sort (same runtime of O(N^2)). The idea is to
+iteratively place the minimum element on the auxiliar stack and then empty it back.
+I am currently thinking if there is a way of improving the runtime to O(nlogn) using a MergeSort-like approach.

@@ -1,5 +1,7 @@
 package chapter3.problem3;
 
+import chapter3.MyStack;
+
 /**
  * Created by omarpaladines on 7/10/16.
  * Assumes MyStack<T> class implemented as in the book.
