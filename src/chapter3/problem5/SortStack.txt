@@ -1,3 +1,8 @@
-The current approach I took for this problem is similar to insertion sort (same runtime of O(N^2)). The idea is to
-iteratively place the minimum element on the auxiliar stack and then empty it back.
-I am currently thinking if there is a way of improving the runtime to O(nlogn) using a MergeSort-like approach.
+The current approach I took for this problem is similar to insertion sort (same runtime of O(N^2) and O(N) extra space).
+The idea is to iteratively place the minimum element on the auxiliar stack and then empty it back.
+Is there a way of improving the runtime to O(NlogN) using a MergeSort/Quicksort-like approach ?
+
+Note that the book's solution is a bit simpler but asymptotically equivalent to this solution in both space and time.
+The book does mention that with the aid of more stacks, we could implement O(NlogN) time solutions. This would require
+double the number of stack per recursion level: Time vs space tradeoff. Not sure how to prove/argue that it is
+not possible to achieve an O(NlogN) time solution using only 2 stacks (the mergesort solution uses O(N) space).

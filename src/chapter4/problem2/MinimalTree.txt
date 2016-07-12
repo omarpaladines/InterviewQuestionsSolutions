@@ -1,0 +1,8 @@
+Argument that height of the tree produced is minimum: Note that the minimum height of any binary tree of n nodes is
+ceiling[log(n)]. This is exactly what the algorithm produces as it divides in half the array each time.
+At each call of the recursive algorithm, it returns at most one node and so it contributes one node to the maximum path.
+Since the array is partitioned in half each time, then the maximum path from the root has length ceiling[log(n)].
+
+Note that the time complexity of the algorithm is O(N) as the recurrence we get is T(N) = 2T(N/2). The space complexity
+besides the necessary N nodes is O(1) because we are doing the recursive work in place instead of copying elements to a
+new array at each recursive call (this is achieved with the lo and hi indices).
