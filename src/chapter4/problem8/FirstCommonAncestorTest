@@ -1,0 +1,20 @@
+My initial idea for this problem was to traverse the tree from the root recording the set of decisions at each branch
+as a bit vector of 0's and 1's (left and right respectively). We insert a -1 at the beginning to denote the root.
+ We do this for both nodes. Then we compare this two linkedlists and stop when the two corresponding elements stop being
+ equal. The element we look for is the node before that (closest common ancestor). We then traverse the graph following
+ the decisions given by the linkedlist and return the node. This approach uses O(n) time (traversals are O(n) in a tree)
+ and O(n) space as we are storing the paths as a list of integers (not the nodes though).
+
+ I realized there was another way of solving the problem that uses O(1) space so we don't need to record the whole path.
+ The key idea is to notice that the common ancestor of two nodes has two options: 1. it is either one of the two nodes:
+ this happens when they are in a line from the root. Or, 2. it is the closest node for which one node is on the right
+ and one node is on the left. This is precisely what our algorithm does. It uses a helper function to recursively calculate
+ the number of nodes found (from those two) on the subtree below a given node (including it).
+ The main function calculates these two numbers for the left subtree and the right subtree. It then checks if each subtree
+ finds exactly one of the two nodes or if the current node is one of the two nodes and the other is in one of its subtrees.
+ These are the only two cases we discussed above. If any of these cases hold, it returns the current node. Otherwise we
+ test for the left subtree or the right subtree (it must be in one these two).
+
+ Note that we use O(N) time in the traversals and O(1) space at each call as we only store the number of nodes (constant).
+ However, we are recursing so I guess we are using space for each call? O(N) space then. Not sure if this counts though.
+ But we are not using extra data structures AND recursing as the other solution so there is still some improvement there.
