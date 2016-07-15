@@ -2,10 +2,10 @@
 package chapter2.problem8;
 
 public class Node {
-	Node next = null;
-	char data;
+	public Node next = null;
+	public Object data;
 	
-	public Node (char data) {
+	public Node (Object data) {
 		this.data = data;
 	}
 }
