@@ -1,0 +1,6 @@
+XOR compares each digit one by one and returns 1 if they are different (this counts as a flip). Thus, we can calculate
+the number of ones in A XOR B. For this we just shift right iteratively and increase the count each time we hit a one in
+the last digit (we check the parity of the number).
+
+Runtime is O(max(#digits in binary representation) of A and B) = O(Max(log(A),log(B)). We do not use any extra space.
+Note that this runtime is optimal because we need to inspect all bits in both numbers.
