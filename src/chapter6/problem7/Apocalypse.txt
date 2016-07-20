@@ -1,0 +1,3 @@
+We use the following lemma: If the probability of success of an event is p, then the expected number of tries until the
+first success is 1/p. Thus, the expected number of kids before the first girl is 2. So in expectation every family has
+one boy and one girl. Thus, the expected gender ratio overall is 50% boys and 50% girls.

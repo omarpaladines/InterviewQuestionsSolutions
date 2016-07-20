@@ -1,0 +1,16 @@
+Initial Idea (not actually correct):
+We count the number of pills in each bottle. If there are n_i pills in bottle i, then the total weight of the pills in
+the ith bottle is n_i grams if the bottle is normal and 1.1n_i if the bottle is the heavy one. With this in mind, we can
+count the number of pills of each bottle. We then put all the pills in the scale and compare the total weight to each of
+the numbers: 1.1n_1 + n_2 + ... + n_k, n_1 + 1.1n_2 + ... + n_k, ... , n_1 + n_2 + ... + 1.1n_k. Note that because there
+is exactly one heavy bottle, the total weight must match at least one of these k numbers (these are all the possibilities
+for the total weight). This raises the obvious question: Can the total weight match two (or more) of these numbers?
+If this were the case, then this procedure wouldn't work.
+
+Lets suppose this happens for bottles i and j. That is,
+n_1 + n_2 + ... + 1.1n_i + ... + n_k = n_1 + n_2 + ... + 1.1n_j + ... + n_k.
+<=> 0.1n_i = 0.1n_j
+<=> n_i = n_j.
+
+Thus, if two bottles have the same number of pills, it doesnt matter where the heavy pill is, these two combinations
+will yield the same number. What can we do in that case? I do not think we can do it with one weighing if thats the case.

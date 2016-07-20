@@ -1,0 +1,4 @@
+We solve the general case directly. Note that probability that there is at least one collision = 1 - probability that
+there are no collision. A collision will occur if any two ants choose the same direction (both clockwise or counterclockwise).
+So if we want no collisions, there are only two possibilities of direction sequences: (C,C,...,C) and (CC,CC,...,CC).
+The probability is then 2/2^n = 1/2^(n-1). The desired probability is the complement of this so: 1 - 1/2^(n-1).

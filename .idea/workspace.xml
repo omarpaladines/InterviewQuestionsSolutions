@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f308f972-40cc-4f7f-9024-a2644448086f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter5/problem2/BinaryToString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter5/problem2/BinaryToStringTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter5/problem6/Conversion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter5/problem6/Conversion.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter5/problem6/ConversionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter6/problem1/TheHeavyPill.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter6/problem4/AntCollision.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter6/problem7/Apocalypse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter6/problem7/Apocalypse.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter6/problem7/ApocalypseTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="InterviewQuestions.iws" />
@@ -30,74 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter4/Node.java">
+      <file leaf-file-name="Apocalypse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter6/problem7/Apocalypse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstCommonAncestorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter4/problem8/FirstCommonAncestorTest.java">
+      <file leaf-file-name="ApocalypseTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter6/problem7/ApocalypseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConversionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5/problem6/ConversionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryToString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5/problem2/BinaryToString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
+            <state relative-caret-position="303">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conversion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5/problem6/Conversion.java">
+      <file leaf-file-name="Apocalypse.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter6/problem7/Apocalypse.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
-              <folding>
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Conversion.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter5/problem6/Conversion.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+            <state relative-caret-position="30">
+              <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -156,6 +113,12 @@
         <option value="$PROJECT_DIR$/src/chapter5/problem6/Conversion.java" />
         <option value="$PROJECT_DIR$/src/chapter5/problem2/BinaryToString.java" />
         <option value="$PROJECT_DIR$/src/chapter5/problem6/Conversion.txt" />
+        <option value="$PROJECT_DIR$/src/chapter6/problem1/TheHeavyPill.txt" />
+        <option value="$PROJECT_DIR$/src/chapter6/problem1/problem4/AntCollision/txt.java" />
+        <option value="$PROJECT_DIR$/src/chapter6/problem4/AntCollision.txt" />
+        <option value="$PROJECT_DIR$/src/chapter6/problem7/Apocalypse.txt" />
+        <option value="$PROJECT_DIR$/src/chapter6/problem7/Apocalypse.java" />
+        <option value="$PROJECT_DIR$/src/chapter6/problem7/ApocalypseTest.java" />
       </list>
     </option>
   </component>
@@ -196,6 +159,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,11 +193,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter5" />
+              <option name="myItemId" value="chapter6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="problem6" />
+              <option name="myItemId" value="problem7" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,11 +215,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="problem2" />
+              <option name="myItemId" value="chapter6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,8 +235,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,33 +247,7 @@
       <recent name="$PROJECT_DIR$/src/chapter2/problem2_8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConversionTest">
-    <configuration default="false" name="MinimalTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter4.problem2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="InterviewQuestions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapter4.problem2" />
-      <option name="MAIN_CLASS_NAME" value="chapter4.problem2.MinimalTreeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ApocalypseTest">
     <configuration default="false" name="FirstCommonAncestorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -405,6 +338,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="chapter5.problem6" />
       <option name="MAIN_CLASS_NAME" value="chapter5.problem6.ConversionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ApocalypseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter6.problem7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InterviewQuestions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapter6.problem7" />
+      <option name="MAIN_CLASS_NAME" value="chapter6.problem7.ApocalypseTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -821,19 +780,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MinimalTreeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstCommonAncestorTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.NumberOfPathsTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BinaryToStringTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ConversionTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstCommonAncestorTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NumberOfPathsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BinaryToStringTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConversionTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ApocalypseTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ConversionTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BinaryToStringTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NumberOfPathsTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstCommonAncestorTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MinimalTreeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ApocalypseTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConversionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BinaryToStringTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NumberOfPathsTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstCommonAncestorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -862,7 +821,8 @@
       <workItem from="1468870962201" duration="1000" />
       <workItem from="1468876249021" duration="1000" />
       <workItem from="1468949235717" duration="1000" />
-      <workItem from="1468962055178" duration="3933000" />
+      <workItem from="1468962055178" duration="4391000" />
+      <workItem from="1469048377731" duration="2842000" />
     </task>
     <task id="LOCAL-00001" summary="remove configuration files">
       <created>1467926427172</created>
@@ -927,46 +887,53 @@
       <option name="project" value="LOCAL" />
       <updated>1468470957637</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="problems from chapter5">
+      <created>1468968677971</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1468968677971</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryToStringTest - 2016.07.19 at 14h 23m 27s.xml">
-      <configuration name="BinaryToStringTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 54m 10s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryToStringTest - 2016.07.19 at 14h 23m 51s.xml">
-      <configuration name="BinaryToStringTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 54m 55s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryToStringTest - 2016.07.19 at 14h 24m 03s.xml">
-      <configuration name="BinaryToStringTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 55m 03s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryToStringTest - 2016.07.19 at 14h 24m 31s.xml">
-      <configuration name="BinaryToStringTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 55m 11s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryToStringTest - 2016.07.19 at 14h 24m 48s.xml">
-      <configuration name="BinaryToStringTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 55m 32s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConversionTest - 2016.07.19 at 15h 31m 20s.xml">
-      <configuration name="ConversionTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 55m 46s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConversionTest - 2016.07.19 at 15h 32m 33s.xml">
-      <configuration name="ConversionTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 56m 05s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConversionTest - 2016.07.19 at 15h 34m 44s.xml">
-      <configuration name="ConversionTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 56m 09s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConversionTest - 2016.07.19 at 15h 34m 50s.xml">
-      <configuration name="ConversionTest" configurationId="JUnit" />
+    <history-entry file="ApocalypseTest - 2016.07.20 at 14h 56m 34s.xml">
+      <configuration name="ApocalypseTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConversionTest - 2016.07.19 at 15h 34m 55s.xml">
       <configuration name="ConversionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29130000" />
+    <option name="totallyTimeSpent" value="32430000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -977,7 +944,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26179606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40487063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1012,7 +979,8 @@
     <MESSAGE value="Problem 3.3 no tests yet." />
     <MESSAGE value="Problem 4.2&#10;" />
     <MESSAGE value="Problem 4.8&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem 4.8&#10;&#10;" />
+    <MESSAGE value="problems from chapter5" />
+    <option name="LAST_COMMIT_MESSAGE" value="problems from chapter5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1023,60 +991,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter4/problem8/FirstCommonAncestorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/problem8/FirstCommonAncestor.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="88" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/problem2/MinimalTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/problem2/MinimalTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/problem2/MinimalTree.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4/problem2/MinimalTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1330,7 +1244,7 @@
     <entry file="file://$PROJECT_DIR$/src/chapter4/problem12/NumberOfPaths.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter4/problem8/FirstCommonAncestorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="225">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1342,21 +1256,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter5/problem6/ConversionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="270">
           <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1374,13 +1279,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter5/problem2/BinaryToString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="345">
           <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
           <folding />
         </state>
@@ -1401,6 +1305,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/problem4/txt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/problem4/AntCollision.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="111" selection-start-line="3" selection-start-column="111" selection-end-line="3" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/problem1/TheHeavyPill.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/problem7/Apocalypse/txt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/problem7/Apocalypse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/problem7/Apocalypse.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/problem7/ApocalypseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
         </state>
       </provider>
