@@ -1,0 +1,7 @@
+My idea was to have a Piece class and a Puzzle class and the idea of the algorithm is to find merging "super pieces" that
+is, big pieces that have successfully been glued together. Each super piece is a set of pieces. The puzzle class initially
+starts with singleton sets of pieces. We would then have a method fitsWith for two set of pieces, that iterates through
+all the pairs of pieces in each set and determines whether or not the two pieces fit together (with the fitsWith method
+for single pieces). If so, it merges the two sets into one. Note that this method is O(N^2).
+The algorithm would then start with the first singleton set, iterate through the set of super pieces remaining, find one
+that fits and glue it to the first one, and so on and so forth. This solution is O(N^4).

@@ -1,0 +1,9 @@
+We should have an employer class to encapsulate the core functionality for an employee. The first question then is how
+do we represent the hierarchy between employees? If they all share the same functionality we could just have an int level
+field that differentiates them. If not, we need subclasses that extend employees. Employers have a method to
+handle a call (maybe another class?). We would then have a Call Center class with an array of all its employees.
+It also has a Priority queue (min heap) of free employees sorted by priorities. This is easy because we can make
+Employees implement the comparator interface, we can use instanceOf or the int level to implement this method so that
+the priority queue works properly. The dispatchCall method would then extract the minimum and remove it from the min heap
+and call the handleCall method on that employer. One thing that I did not consider was what happen if all of the
+employers are busy (if the min heap is empty).
