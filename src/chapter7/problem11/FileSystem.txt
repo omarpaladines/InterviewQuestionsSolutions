@@ -1,0 +1,9 @@
+For an in-memory file system: We can represent each file as either contiguous blocks of memory (fragmentation)
+or a set of addresses for each file (virtual memory approach). So for the first approach, we can have a table
+indicating the beginning and end of each file. Some methods could be read data, write data, new file, delete file, store file.
+Of course, we would also need a data structure to represent the memory itself (?) Can we assume we can directly access the
+memory?. In this approach, new file could just look at the table and assign it the last used address. Delete file could
+just free those addresses. Store file could iterate through the table to see the first empty spot with sufficient size.
+There are many approaches for this actually: we can store it in the biggest spot, so that the file can increase when writing,
+or look for the first spot to eliminate fragmentation.
+Write data would look at the end address and relocate the file if you go past the end address.

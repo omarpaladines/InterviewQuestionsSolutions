@@ -1,0 +1,7 @@
+The solution to this problem is standard binary search. What is interesting to me is the followup discussed in the book.
+While the approach certainly works and I also thought about it, it does search for both sides of the array instead of one.
+Because we are potentially discarding a bunch of elements, this is better than just iterating through the array one by one.
+However, is it assymptotically better than O(N)/ still O(logN) ? My guess is certainly not O(logN).
+My intuition is that as soon as we search both arrays, we are potentially searching for O(N/k) elements so the recurrence
+will become T(N) = 2T(N/k) + O(1). This is O(N^(log_k 2)) which is n ^ (something) which dominates logN for sure. But it
+is still better than just looking to every element I guess.
