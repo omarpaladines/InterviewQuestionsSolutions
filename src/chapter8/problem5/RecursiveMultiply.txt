@@ -1,0 +1,13 @@
+For this problem, I was happily surprised that my solution was the third one in the book (the most optimal). At first
+I was thinking about doing it iteratively but I realized that I needed to check if there is a 1 in bit i's position
+so I needed to keep track of position of bit i of one of the numbers and that seemed a little tedious. Then I read the
+problem again and obviously went for a recursive solution. With bit shifting in mind, I recalled that shifting right is
+equivalent of (almost dividing by 2). So I would just divide by 2 everytime and add the number to itself. I realized that
+when a number is odd then we don't really divide by 2 in shifting because we loose a 1. At this point I added the last bit
+of the number to the result (either by & 1 or by % 2, which I wasn't sure if they were allowed). This was a huge mistake
+because it doesn't work: we are multiplying by the number so a (2k + 1) = 2ak + a not 2ak + 1. I realized this by running
+a small tests (3)(5) and got 13. I just fixed this by adding the product of the number with the last bit (this is O(1)
+because it always hit the base case).
+
+We always let b be the smallest number so the running time is O(min(log(a),log(b))) because we divide b recursively
+each time. The space complexity is also the same because each recursive call pushes a layer on the stack.
