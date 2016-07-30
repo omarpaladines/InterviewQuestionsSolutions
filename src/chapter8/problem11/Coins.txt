@@ -1,0 +1,14 @@
+My first attempt was to solve recursively by considering the first coin. It could be either 25,10,5 or 1. However, this
+approach introduced a lot of double counting. For instance, decompositions like 10 + 5 and 5 + 10 would be counted twice.
+After a lot of thinking/struggling I realized I needed to contrain the starting coin, so we could actually count the
+number of ways of decomposing n using coins of 25 or lower, 10 or lower, 5 or lower and 1 or lower. These type of counting
+does not double count because they are mutually exclusive.
+With this in mind I defined f(n) = f(n,25) the number of ways of decomposing n into coins of value 25 or lower.
+Then we can see that f(n,25) = f(n-25, 25) + f(n, 10). This is because we can either start with a 25 or don't use a 25
+at all. In general we can define f(n,a_k) = f(n-a, a) + f(n, a_{k-1}) where a_k is just the kth coin value and a_0 = 1.
+
+With this in mind we can simply create a n x 4 array and cache iteratively the answer. This approach uses O(n) space
+and O(n^2) time. I had some implementation details/off-by-1 errors. To solve this, I created an extra initial row.
+I learned that besides testing, when memoizing using a 2D array, because of the indexing it is always useful to create
+an extra initial/dummy row (define the problem for 0) so that entry a[k] actually represents what we want it to represent.
+In the end we just return a[n] which is exactly what we wanted.
