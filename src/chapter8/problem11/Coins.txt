@@ -1,6 +1,6 @@
 My first attempt was to solve recursively by considering the first coin. It could be either 25,10,5 or 1. However, this
 approach introduced a lot of double counting. For instance, decompositions like 10 + 5 and 5 + 10 would be counted twice.
-After a lot of thinking/struggling I realized I needed to contrain the starting coin, so we could actually count the
+After a lot of thinking/struggling I realized I needed to constrain the starting coin, so we could actually count the
 number of ways of decomposing n using coins of 25 or lower, 10 or lower, 5 or lower and 1 or lower. These type of counting
 does not double count because they are mutually exclusive.
 With this in mind I defined f(n) = f(n,25) the number of ways of decomposing n into coins of value 25 or lower.

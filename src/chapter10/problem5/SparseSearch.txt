@@ -1,0 +1,6 @@
+The solution the book and I proposed is clearly not O(logN) as binary search. In fact it is O(N). How much better is this
+solution than doing linear search then? It takes O(logN) when there are no empty strings whereas linear search takes
+O(N). So it is indeed an improvement under some inputs.
+
+There were a lot of implementation problems with the indices I realized when testing. Should be aware of this fact in
+sorting and searching. Test by hand a lot of small test cases and double and triple check the indices.
