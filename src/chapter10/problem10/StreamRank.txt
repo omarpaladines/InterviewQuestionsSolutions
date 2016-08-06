@@ -1,0 +1,14 @@
+This problem is a clear example of data structure augmentation and I remembered this was done via a BST. We need to
+keep track of the number of nodes below the BST (not including itself). However, I remembered incorrectly that the rank
+ was the number of nodes in the left subtree. While this is true, we also need to take into account the nodes being equal
+ and nodes to up and left of the node (this was problematic and I did not notice until the very end).
+ First I tried to handle repeated nodes by another field called numEqual but this conflicted with the numBelow. Because
+ of this I just decided to handle it by a third link (center) that holds references to equal nodes. This shouldn't
+ greatly affect the running time.
+
+ There were a lot of dumb pointer mistakes that I should really be careful with (parent vs node).
+
+ I realized the problem of the nodes up and to the left really late (while testing in the computer). Should be careful
+ and test many many cases in paper first. Luckily, this was an easy modification from what I already had coded.
+
+ I guess we could optimize the runtime by making it a balanced tree (AVL)? But I don't think we need to implement rotations.
