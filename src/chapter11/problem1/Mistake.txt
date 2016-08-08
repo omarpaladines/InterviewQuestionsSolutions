@@ -1,0 +1,8 @@
+The first step to find the mistake(s) is really to explicitly define what the function is supposed to do. I was a little
+disappointed that the author doesn't mention this crucial fact in the solution.
+By reading the first hints I realized that the function will loop indefinitely because of the unsigned: it will reach
+-1 and interpret it as MaxValue which is positive and will keep going. To fix this, I just put a signed instead of an
+unsigned declaration. The solution doesn't do this but removes the = 0 condition and adds an additional printf 0 if
+we really want to print 0. Then it says that the format should be %u instead of %d. First of all, I don't think
+this is an actual mistake as numbers 100 to 0 do not have the high bit set so the output will remain the same.
+Also, even if this was a mistake, it is also solved by just changing unsigned to signed.

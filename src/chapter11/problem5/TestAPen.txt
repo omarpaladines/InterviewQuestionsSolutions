@@ -1,0 +1,8 @@
+This problem is really about asking questions and then going from there. You should ask:
+
+1. Who and why are they going to use it.
+2. How will they use it (use cases).
+3. What are the bounds of it uses (how long is it supposed to last, temperature, etc for example).
+4. What should happen if it fails?
+
+Given this answers you can start defining normal cases, intended uses and unintended uses.

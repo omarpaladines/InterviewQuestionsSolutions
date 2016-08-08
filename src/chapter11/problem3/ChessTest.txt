@@ -1,0 +1,12 @@
+First of all, the problem is not really well specified. I did not realize that the function was supposed to be in the
+context of a board. I thought that the function just took a piece and a position without taking into account the other
+pieces. Anyways, this is easy to modify by just checking if there is a piece at the position.
+
+We need to test for normal cases, boundary cases and strange inputs.
+
+Normal cases: Test for positions completely inside the board.
+
+Boundary Cases: Test for all 4 corners and positions right in the walls of the board.
+
+Strange inputs: Test for negative coordinates and > 64 coordinates. Test for exactly one of them out of bounds and when
+both of them out of bounds. Should clarify if need an exception to be thrown, or an error message, etc to test accordingly.
